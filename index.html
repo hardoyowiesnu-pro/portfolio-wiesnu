@@ -1,217 +1,313 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portofolio resmi Wiesnu Hardoyo — Fresh Graduate dari SMAN 6 Kota Serang dengan semangat profesional dan visi departemen perusahaan.">
-    <title>Wiesnu Hardoyo | Portofolio Profesional</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Portofolio resmi Wiesnu Hardoyo — Fresh Graduate dari SMAN 6 Kota Serang dengan semangat profesional dan visi departemen perusahaan."
+  >
+  <title>Wiesnu Hardoyo | Portofolio Profesional</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- ===== HEADER / NAVBAR ===== -->
-    <header class="navbar" id="navbar">
-        <div class="container nav-container">
-            <a href="#hero" class="brand">
-                <span class="brand-mark">WH</span>
-                <span class="brand-text">Wiesnu Hardoyo</span>
-            </a>
-            <nav class="nav-links" id="navLinks">
-                <a href="#hero">Beranda</a>
-                <a href="#about">Tentang</a>
-                <a href="#education">Pendidikan</a>
-                <a href="#departments">Departemen</a>
-                <a href="#contact">Kontak</a>
-            </nav>
-            <button class="nav-toggle" id="navToggle" aria-label="Buka menu">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </header>
 
-    <!-- ===== HERO ===== -->
-    <section class="hero" id="hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <p class="hero-eyebrow">✨ SELAMAT DATANG DI PORTOFOLIO SAYA ✨</p>
-            <div class="hero-welcome-badge">
-                <span class="welcome-icon">👋</span>
-                <span>Halo! Senang berkenalan dengan Anda</span>
-            </div>
-            <h1 class="hero-title">Wiesnu Hardoyo</h1>
-            <p class="hero-role">Fresh Graduate — Siap Berkontribusi Lintas Departemen</p>
-            <p class="hero-desc">
-                Lulusan SMAN 6 Kota Serang dengan semangat tinggi dalam organisasi,
-                koordinasi tim, dan pengembangan diri. Berorientasi pada hasil dan siap
-                menghadapi tantangan dunia profesional.
+  <!-- ============================================================
+       HEADER / NAVBAR
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+
+      <a href="#hero" class="brand">
+        <span class="brand-mark">WH</span>
+        <span class="brand-text">Wiesnu Hardoyo</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Navigasi utama">
+        <a href="#hero">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#departments">Departemen</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="container hero-content">
+
+      <p class="hero-eyebrow">✨ SELAMAT DATANG DI PORTOFOLIO SAYA ✨</p>
+
+      <div class="hero-welcome-badge">
+        <span class="welcome-icon" aria-hidden="true">👋</span>
+        <span>Halo! Senang berkenalan dengan Anda</span>
+      </div>
+
+      <h1 class="hero-title">Wiesnu Hardoyo</h1>
+      <p class="hero-role">Fresh Graduate — Siap Berkontribusi Lintas Departemen</p>
+
+      <p class="hero-desc">
+        Lulusan SMAN 6 Kota Serang dengan semangat tinggi dalam organisasi,
+        koordinasi tim, dan pengembangan diri. Berorientasi pada hasil dan siap
+        menghadapi tantangan dunia profesional.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+        <a href="#departments" class="btn btn-outline">Lihat Bidang</a>
+      </div>
+
+      <div class="hero-stats" aria-label="Statistik singkat">
+        <div class="stat">
+          <span class="stat-num" data-target="3">0</span>
+          <span class="stat-label">Tahun Aktif Organisasi</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="12">0</span>
+          <span class="stat-label">Proyek Selesai</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="5">0</span>
+          <span class="stat-label">Sertifikat &amp; Pelatihan</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="88">0</span>
+          <span class="stat-label">Nilai Rata-Rata</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+
+      <div class="about-photo">
+        <div class="photo-frame" aria-hidden="true">
+          <span class="photo-initials">WH</span>
+        </div>
+
+        <div class="about-card">
+          <h4>Profil Singkat</h4>
+          <ul>
+            <li><strong>Nama</strong> Wiesnu Hardoyo</li>
+            <li><strong>Pendidikan</strong> SMAN 6 Kota Serang</li>
+            <li><strong>Lokasi</strong> Kota Serang, Banten</li>
+            <li><strong>Status</strong> Mahasiswa</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <p class="section-eyebrow">TENTANG SAYA</p>
+        <h2 class="section-title">Fresh Graduate dengan Pola Pikir Profesional</h2>
+
+        <p>
+          Saya Wiesnu Hardoyo, lulusan SMAN 6 Kota Serang yang memiliki
+          ketertarikan mendalam pada dunia manajemen, organisasi, dan
+          teknologi. Selama masa sekolah, saya aktif dalam berbagai kegiatan
+          yang membentuk kemampuan komunikasi, kepemimpinan, dan kolaborasi.
+        </p>
+        <p>
+          Saya percaya bahwa fondasi kesuksesan dibangun dari disiplin,
+          kerja keras, dan kemauan belajar yang tinggi. Dengan bekal
+          pengalaman organisasi dan akademik, saya siap berkontribusi
+          dalam lingkungan profesional yang dinamis.
+        </p>
+
+        <div class="about-highlights">
+          <div class="highlight"><span class="dot" aria-hidden="true"></span> Kepemimpinan Organisasi</div>
+          <div class="highlight"><span class="dot" aria-hidden="true"></span> Komunikasi Efektif</div>
+          <div class="highlight"><span class="dot" aria-hidden="true"></span> Manajemen Waktu</div>
+          <div class="highlight"><span class="dot" aria-hidden="true"></span> Berpikir Analitis</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       EDUCATION
+  ============================================================ -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+
+      <div class="section-head center">
+        <p class="section-eyebrow">RIWAYAT PENDIDIKAN</p>
+        <h2 class="section-title">Perjalanan Akademik</h2>
+        <p class="section-sub">Membangun fondasi pengetahuan dan karakter untuk masa depan.</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-content">
+            <span class="tl-date">2021 — 2024</span>
+            <h3>SMAN 6 Kota Serang</h3>
+            <span class="tl-company">Jurusan Ilmu Pengetahuan Sosial (IPS)</span>
+            <p>
+              Menyelesaikan pendidikan menengah atas dengan fokus pada ilmu sosial,
+              ekonomi, dan manajemen. Aktif dalam berbagai organisasi dan kegiatan
+              ekstrakurikuler yang membentuk jiwa kepemimpinan.
             </p>
-            <div class="hero-actions">
-                <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
-                <a href="#departments" class="btn btn-outline">Lihat Bidang</a>
+            <div class="edu-achievements">
+              <span class="edu-badge">🌟 Siswa Berprestasi</span>
             </div>
-            <div class="hero-stats">
-                <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">Tahun Aktif Organisasi</span></div>
-                <div class="stat"><span class="stat-num" data-target="12">0</span><span class="stat-label">Proyek Selesai</span></div>
-                <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Sertifikat & Pelatihan</span></div>
-                <div class="stat"><span class="stat-num" data-target="88">0</span><span class="stat-label">Nilai Rata-Rata</span></div>
-            </div>
+          </div>
         </div>
-    </section>
 
-    <!-- ===== ABOUT ===== -->
-    <section class="section" id="about">
-        <div class="container about-grid">
-            <div class="about-photo">
-                <div class="photo-frame">
-                    <span class="photo-initials">WH</span>
-                </div>
-                <div class="about-card">
-                    <h4>Profil Singkat</h4>
-                    <ul>
-                        <li><strong>Nama</strong> Wiesnu Hardoyo</li>
-                        <li><strong>Pendidikan</strong> SMAN 6 Kota Serang</li>
-                        <li><strong>Lokasi</strong> Kota Serang, Banten</li>
-                        <li><strong>Status</strong> Mahasiswa</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="about-text">
-                <p class="section-eyebrow">TENTANG SAYA</p>
-                <h2 class="section-title">Fresh Graduate dengan Pola Pikir Profesional</h2>
-                <p>
-                    Saya Wiesnu Hardoyo, lulusan SMAN 6 Kota Serang yang memiliki
-                    ketertarikan mendalam pada dunia manajemen, organisasi, dan
-                    teknologi. Selama masa sekolah, saya aktif dalam berbagai kegiatan
-                    yang membentuk kemampuan komunikasi, kepemimpinan, dan kolaborasi.
-                </p>
-                <p>
-                    Saya percaya bahwa fondasi kesuksesan dibangun dari disiplin,
-                    kerja keras, dan kemauan belajar yang tinggi. Dengan bekal
-                    pengalaman organisasi dan akademik, saya siap berkontribusi
-                    dalam lingkungan profesional yang dinamis.
-                </p>
-                <div class="about-highlights">
-                    <div class="highlight"><span class="dot"></span> Kepemimpinan Organisasi</div>
-                    <div class="highlight"><span class="dot"></span> Komunikasi Efektif</div>
-                    <div class="highlight"><span class="dot"></span> Manajemen Waktu</div>
-                    <div class="highlight"><span class="dot"></span> Berpikir Analitis</div>
-                </div>
-            </div>
+        <div class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-content">
+            <span class="tl-date">2018 — 2021</span>
+            <h3>SMPN 10 Kota Serang</h3>
+            <span class="tl-company">Pendidikan Menengah Pertama</span>
+            <p>
+              Lulus dengan nilai memuaskan dan aktif dalam kegiatan Pramuka
+              serta klub sains sekolah. Mulai mengembangkan minat di bidang
+              teknologi dan organisasi.
+            </p>
+          </div>
         </div>
-    </section>
 
-    <!-- ===== EDUCATION ===== -->
-    <section class="section section-alt" id="education">
-        <div class="container">
-            <div class="section-head center">
-                <p class="section-eyebrow">RIWAYAT PENDIDIKAN</p>
-                <h2 class="section-title">Perjalanan Akademik</h2>
-                <p class="section-sub">Membangun fondasi pengetahuan dan karakter untuk masa depan.</p>
-            </div>
-            <div class="timeline">
-                <div class="tl-item">
-                    <div class="tl-dot"></div>
-                    <div class="tl-content">
-                        <span class="tl-date">2021 — 2024</span>
-                        <h3>SMAN 6 Kota Serang</h3>
-                        <span class="tl-company">Jurusan Ilmu Pengetahuan Sosial (IPS)</span>
-                        <p>Menyelesaikan pendidikan menengah atas dengan fokus pada ilmu sosial, ekonomi, dan manajemen. Aktif dalam berbagai organisasi dan kegiatan ekstrakurikuler yang membentuk jiwa kepemimpinan.</p>
-                        <div class="edu-achievements">
-                            <span class="edu-badge">🌟 Siswa Berprestasi</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="tl-item">
-                    <div class="tl-dot"></div>
-                    <div class="tl-content">
-                        <span class="tl-date">2018 — 2021</span>
-                        <h3>SMPN 10 Kota Serang</h3>
-                        <span class="tl-company">Pendidikan Menengah Pertama</span>
-                        <p>Lulus dengan nilai memuaskan dan aktif dalam kegiatan Pramuka serta klub sains sekolah. Mulai mengembangkan minat di bidang teknologi dan organisasi.</p>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       DEPARTMENTS
+  ============================================================ -->
+  <section class="section section-alt" id="departments">
+    <div class="container">
+
+      <div class="section-head center">
+        <p class="section-eyebrow">STRUKTUR KOMPETENSI</p>
+        <h2 class="section-title">Bidang yang Saya Kuasai</h2>
+        <p class="section-sub">Berbagai area kompetensi yang saya kembangkan layaknya departemen dalam perusahaan.</p>
+      </div>
+
+      <div class="dept-grid">
+
+        <article class="dept-card">
+          <div class="dept-icon" aria-hidden="true">💬</div>
+          <h3>Komunikasi &amp; Public Speaking</h3>
+          <p>Terampil dalam berbicara di depan umum, presentasi, dan menjalin komunikasi efektif dengan berbagai pihak.</p>
+        </article>
+
+        <article class="dept-card">
+          <div class="dept-icon" aria-hidden="true">📊</div>
+          <h3>Analisis &amp; Riset</h3>
+          <p>Mampu mengumpulkan, mengolah, dan menganalisis data untuk menghasilkan laporan dan rekomendasi yang akurat.</p>
+        </article>
+
+        <article class="dept-card">
+          <div class="dept-icon" aria-hidden="true">💻</div>
+          <h3>Teknologi &amp; Digital</h3>
+          <p>Menguasai dasar pengembangan web, Microsoft Office, dan alat digital untuk mendukung produktivitas kerja.</p>
+        </article>
+
+        <article class="dept-card">
+          <div class="dept-icon" aria-hidden="true">🎨</div>
+          <h3>Kreativitas &amp; Desain</h3>
+          <p>Memiliki ketertarikan pada desain grafis dan konten visual untuk mendukung kegiatan organisasi dan promosi.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+
+      <div class="contact-info">
+        <p class="section-eyebrow">HUBUNGI SAYA</p>
+        <h2 class="section-title">Mari Terhubung</h2>
+        <p>Tertarik untuk berkolaborasi atau berdiskusi tentang peluang? Silakan hubungi saya melalui informasi di bawah ini.</p>
+
+        <ul class="contact-list">
+          <li><span class="ci-icon" aria-hidden="true">✉️</span> wiesnu.hardoyo@email.com</li>
+          <li><span class="ci-icon" aria-hidden="true">📞</span> +62 812 3456 7890</li>
+          <li><span class="ci-icon" aria-hidden="true">📍</span> Kota Serang, Banten</li>
+          <li><span class="ci-icon" aria-hidden="true">🔗</span> linkedin.com/in/wiesnuhardoyo</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <input type="text"   id="name"    name="name"    placeholder="Nama Lengkap" required>
+          <input type="email"  id="email"   name="email"   placeholder="Alamat Email" required>
         </div>
-    </section>
+        <input   type="text"   id="subject" name="subject" placeholder="Subjek" required>
+        <textarea             id="message"  name="message" rows="5" placeholder="Pesan Anda" required></textarea>
+        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        <p class="form-note" id="formNote" aria-live="polite"></p>
+      </form>
 
-    <!-- ===== DEPARTMENTS ===== -->
-    <section class="section section-alt" id="departments">
-        <div class="container">
-            <div class="section-head center">
-                <p class="section-eyebrow">STRUKTUR KOMPETENSI</p>
-                <h2 class="section-title">Bidang yang Saya Kuasai</h2>
-                <p class="section-sub">Berbagai area kompetensi yang saya kembangkan layaknya departemen dalam perusahaan.</p>
-            </div>
-            <div class="dept-grid">
-                <article class="dept-card">
-                    <div class="dept-icon">💬</div>
-                    <h3>Komunikasi & Public Speaking</h3>
-                    <p>Terampil dalam berbicara di depan umum, presentasi, dan menjalin komunikasi efektif dengan berbagai pihak.</p>
-                </article>
-                <article class="dept-card">
-                    <div class="dept-icon">📊</div>
-                    <h3>Analisis & Riset</h3>
-                    <p>Mampu mengumpulkan, mengolah, dan menganalisis data untuk menghasilkan laporan dan rekomendasi yang akurat.</p>
-                </article>
-                <article class="dept-card">
-                    <div class="dept-icon">💻</div>
-                    <h3>Teknologi & Digital</h3>
-                    <p>Menguasai dasar pengembangan web, Microsoft Office, dan alat digital untuk mendukung produktivitas kerja.</p>
-                </article>
-                <article class="dept-card">
-                    <div class="dept-icon">🎨</div>
-                    <h3>Kreativitas & Desain</h3>
-                    <p>Memiliki ketertarikan pada desain grafis dan konten visual untuk mendukung kegiatan organisasi dan promosi.</p>
-                </article>
-            </div>
-        </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- ===== CONTACT ===== -->
-    <section class="section" id="contact">
-        <div class="container contact-grid">
-            <div class="contact-info">
-                <p class="section-eyebrow">HUBUNGI SAYA</p>
-                <h2 class="section-title">Mari Terhubung</h2>
-                <p>Tertarik untuk berkolaborasi atau berdiskusi tentang peluang? Silakan hubungi saya melalui informasi di bawah ini.</p>
-                <ul class="contact-list">
-                    <li><span class="ci-icon">✉️</span> wiesnu.hardoyo@email.com</li>
-                    <li><span class="ci-icon">📞</span> +62 812 3456 7890</li>
-                    <li><span class="ci-icon">📍</span> Kota Serang, Banten</li>
-                    <li><span class="ci-icon">🔗</span> linkedin.com/in/wiesnuhardoyo</li>
-                </ul>
-            </div>
-            <form class="contact-form" id="contactForm">
-                <div class="form-row">
-                    <input type="text" id="name" placeholder="Nama Lengkap" required>
-                    <input type="email" id="email" placeholder="Alamat Email" required>
-                </div>
-                <input type="text" id="subject" placeholder="Subjek" required>
-                <textarea id="message" rows="5" placeholder="Pesan Anda" required></textarea>
-                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
-                <p class="form-note" id="formNote"></p>
-            </form>
-        </div>
-    </section>
 
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer">
-        <div class="container footer-inner">
-            <div class="footer-brand">
-                <span class="brand-mark">WH</span>
-                <span>Wiesnu Hardoyo</span>
-            </div>
-            <p>&copy; <span id="year"></span> Wiesnu Hardoyo. Seluruh hak cipta dilindungi.</p>
-            <div class="footer-links">
-                <a href="#about">Tentang</a>
-                <a href="#education">Pendidikan</a>
-                <a href="#departments">Departemen</a>
-                <a href="#contact">Kontak</a>
-            </div>
-        </div>
-    </footer>
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer-inner">
 
-    <script src="script.js"></script>
+      <div class="footer-brand">
+        <span class="brand-mark">WH</span>
+        <span>Wiesnu Hardoyo</span>
+      </div>
+
+      <p>&copy; <span id="year"></span> Wiesnu Hardoyo. Seluruh hak cipta dilindungi.</p>
+
+      <nav class="footer-links" aria-label="Navigasi footer">
+        <a href="#about">Tentang</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#departments">Departemen</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+
 </body>
 </html>
